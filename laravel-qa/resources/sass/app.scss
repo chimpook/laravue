@@ -19,9 +19,14 @@
     .vote, .status {
         width: 60px;
         height: 60px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 6px;
     }
 
     .status {
+
+        border-radius: 4px;
 
         &.unanswered {// class="status unanswered"
             border: none;

@@ -11115,6 +11115,13 @@ a.text-dark:focus {
 .counters .status {
   width: 60px;
   height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 6px;
+}
+
+.counters .status {
+  border-radius: 4px;
 }
 
 .counters .status.unanswered {
